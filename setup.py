@@ -13,7 +13,8 @@ setup(
     packages=find_packages(exclude=['demo']),
     include_package_data=True,
     install_requires=[
-        'pynba==0.5.4'
+        'pynba==0.5.5',
+        'Django>=1.10',
     ],
     zip_safe=False,
     classifiers=[
